@@ -43,7 +43,6 @@ class HeaderBottom extends Component {
                                 <MenuLink lable="Dashboard" to="/dashboard" />
                                 <MenuLink lable="Users" to="/users" />
                                 <MenuLink lable="Settings" to="/settings" />
-                                <MenuLink lable="Login" to="/login" />
                             </ul>
                         </div>
                     </div>
