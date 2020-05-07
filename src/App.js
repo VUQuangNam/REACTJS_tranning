@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // import LayoutDefault from './layouts/layoutdefault';
-import './App.scss';
 import router from './Routers';
 import HeaderTop from './components/headers/headerTop';
 import HeaderBottom from './components/headers/headerBottom';
-import Footer from './components/footers/footer';
+// import Footer from './components/footers/footer';
 
 class App extends Component {
 
@@ -33,9 +32,9 @@ class App extends Component {
                     <Switch>
                         {eml}
                     </Switch>
-                    <div className="dunnio-footer">
+                    {/* <div className="dunnio-footer">
                         <Footer />
-                    </div>
+                    </div> */}
                 </Router>
             </div>
         );

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { connect } from 'react-redux';
 
 class Dashboard extends Component {
     constructor(props) {
@@ -35,4 +36,10 @@ class Dashboard extends Component {
         );
     }
 }
-export default Dashboard;
+
+const mapStateToProps = (state) => {
+    return {
+        tasks: state.tasks
+    }
+}
+export default connect(mapStateToProps, null)(Dashboard);

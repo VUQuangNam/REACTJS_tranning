@@ -1,4 +1,4 @@
-import *as types from '../../tranning/constants/action';
+import * as types from '../../constants/action';
 
 export const status = () => {
     return {
