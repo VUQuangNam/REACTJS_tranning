@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-class User extends Component {
-    a = 5000;
+
+class Home extends Component {
     render() {
         return (
             <div>
-                {this.a}
+                home
             </div>
-        );
+        )
     }
 }
-export default User;
+
+export default Home;
