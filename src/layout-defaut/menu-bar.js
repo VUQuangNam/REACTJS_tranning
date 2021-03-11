@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import logo from '../media/logos/logo.png';
-import router from '../Routers'
+import router from '../Routers';
 
 class MenuBar extends Component {
     render() {
@@ -38,13 +38,11 @@ class MenuBar extends Component {
                     <img src={logo} alt="" />
                 </div>
                 <Router>
-                    <div>
-                        <nav>
-                            <ul>
-                                {listItem}
-                            </ul>
-                        </nav>
-                    </div>
+                    <nav>
+                        <ul>
+                            {listItem}
+                        </ul>
+                    </nav>
                     <Switch>
                         {eml}
                     </Switch>
